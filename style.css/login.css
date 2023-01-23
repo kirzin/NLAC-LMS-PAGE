@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+ }
+.clip{
+    position: absolute;
+    top:-60px;
+    left: -320px;
+    width: 800px;
+    zoom: 5;
+  transform: rotate(-90deg);
+  z-index: -1;
+}
+.row1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 36rem;
+}
+.img-logo{
+  position: absolute;
+  left: 230px;
+  top: 0;
+  z-index: 1;
+}
